@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Valentine for you</title>
+    </head>
+
+    <body>
+            <style>
+                body{
+                    background-color: rgb(255, 255, 255);
+                }
+                h1{
+                    color: #ffc5ff;
+                    background-color: rgb(255, 255, 255);
+                    font: size 100px;
+                }
+                button{
+                    background-color: rgb(255, 255, 255);
+                }
+                header{
+                    background-image: url('sun1.jpg');
+                }
+            </style>
+            <h1>Valentine for you,My love</h1>
+            <div class="image-container">
+                <img src ="tap.jpg">
+                
+                <div class="text-on-image1"><a href ="love.html"><p1>home</p1></a></div>
+                <div class="text-on-image2"><a href="video.html"><p2>video</p2></a></div>
+                <div class="text-on-image3"><a href="cheer.html"><p3>Cheer up!</p3> </a></div>
+            </div>
+
+            <header>
+                <center>
+                    <button onclick="window.location.href='letter.html'">
+                        <img src = "letter.png" height="240" weight="240">
+                    </button>
+                </center>
+            </header>
+            <p>สวัสดีวันวาเลนไทน์นะ 14 กุมภาพันธ์ 2568<br></p>
+
+            <style>
+            .image-container {
+                position: relative;
+                text-align: center;
+                color: white;
+            } 
+            .image-container img {
+                width: 100%;
+                height: auto;
+            }
+            .text-on-image1 {
+                position: absolute;
+                top: 50%;
+                right: 70%;
+                transform: translate(-50%, -50%);
+                font-size: 50px;
+                font-weight: bold;
+            }
+            .text-on-image2 {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 50px;
+                font-weight: bold;
+            }
+            .text-on-image3 {
+                position: absolute;
+                top: 50%;
+                left: 70%;
+                transform: translate(-50%, -50%);
+                font-size: 50px;
+                font-weight: bold;
+            }
+
+            a{
+            color: rgb(255, 255, 255); /* สีลิงก์ปกติ */
+            text-decoration: none; /* ลบเส้นใต้ */}
+
+            a:active {
+            color: rgb(242, 255, 170); /* สีลิงก์เมื่อถูกคลิก */}
+            </style>           
+        
+    </body>
+</html>
